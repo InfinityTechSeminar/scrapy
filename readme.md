@@ -28,8 +28,8 @@ scrapy crawl quotes -L DEBUG
 # Run crawl quotes with debug information
 scrapy crawl quotes -a debug=1
 ```
-## Save data
-> Lưu dữ liệu ra file json:
+## Pipeline save data
+> Lưu dữ liệu ra file json, thêm các trường sau vào item
 ```sh
 # Format
 {
@@ -89,5 +89,5 @@ custom_settings = {
 - [Advanced web scraping and crawling with Scrapy and SqlAlchemy](https://manhhomienbienthuy.bitbucket.io/2016/Jan/11/advanced-web-scraping-and-crawling-with-scrapy-and-sqlalchemy.html)
 
 ## Contact
-> Email: ngoctd@ai-t.vn
-> Facebook: https://www.facebook.com/InfinityTechSeminar
+- Email: ngoctd@ai-t.vn
+- Facebook: https://www.facebook.com/InfinityTechSeminar

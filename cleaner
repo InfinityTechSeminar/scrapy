@@ -3,6 +3,7 @@ output=${1:-output.egg}
 
 echo "Delete junk files: *.pyc"
 find . -name \*.pyc -delete
+find . -name .DS_Store -delete
 
 echo "Remove old build: ${output}"
 rm -f $output

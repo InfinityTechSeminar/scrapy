@@ -9,7 +9,7 @@
 pip install scrapy
 pip install SQLAlchemy
 pip install pymysql
-pip install MySQLdb
+pip install mysql
 ```
 
 ## Run spider crawl data

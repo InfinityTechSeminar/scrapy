@@ -1,4 +1,4 @@
 Scrapy
 SQLAlchemy
 pymysql
-MySQLdb
+mysql

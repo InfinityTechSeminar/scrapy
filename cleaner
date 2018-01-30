@@ -1,0 +1,17 @@
+#!/bin/bash
+output=${1:-output.egg}
+
+echo "Delete junk files: *.pyc"
+find . -name \*.pyc -delete
+
+echo "Remove old build: ${output}"
+rm -f $output
+
+echo "Build new version: ${output}"
+# scrapyd-deploy --build-egg $output
+
+echo "Remove build junk files: build, project.egg-info"
+rm -fr build
+rm -fr project.egg-info
+
+echo "Build completed, the output file: ${output}"
